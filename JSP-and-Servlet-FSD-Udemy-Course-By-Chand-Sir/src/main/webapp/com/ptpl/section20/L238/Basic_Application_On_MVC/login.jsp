@@ -24,8 +24,8 @@
 			<label for="username">Username:</label> <input type="text"
 				id="username" name="username" required><br> <label
 				for="password">Password:</label> <input type="password"
-				id="password" name="password" required><br> 
-				
+				id="password" name="password" required><br> <a
+				href="<%=request.getContextPath()%>/Controller?page=L238-logedIn"><button>LogIn</button></a>
 
 		</form>
 
